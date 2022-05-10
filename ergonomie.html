@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="application-name" content="Lightstyle | kitchen manufacture"/>
+        <meta name="description" content="Kuchyně Lightstyle jsou vyrobeny vždy přímo Vám na míru, přesně podle Vašich požadavků a vždy jen z těch nejlepších materiálů. Neváhejte a sjednejte si schůzku na některém z našich showroomů, kde se Vám bude věnovat náš tým designérů a specialistů na spotřebiče, kteří Vám zdarma navrhnou Vaší ideální kuchyni. VYUŽIJTE AKCE -37% NA KUCHYNĚ"/>
+        <meta name="keywords" content="Kuchyně, skříně, elektrospotřebiče, výroba na míru, kurzy vaření"/>
+		<title>Lightstyle | kitchen manufacture</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index-mediaqueries.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link href="//db.onlinewebfonts.com/c/28ff3ea0258885d9b0dc60acf09746e4?family=Meta+Pro" rel="stylesheet" type="text/css"/> 
+        <link rel="stylesheet" href="ergonomie.css">
+
+        <script type="text/javascript" charset="utf-8" src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-jssor-24.1.5.js"></script>
+	</head>
+	<body>
+        <main>
+		<div class="container-fluid upper-line text-center justify-content-center sticky-top">
+			<p>Návrh kuchyně zdarma pro všechny objednávky!</p>
+		</div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+       <div class="menu_icon">
+        <a class="navbar-button openbtn"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i style="	font-size: 30px;" class="fas fa-bars"></i>
+
+                <a class="navbar-brand text-center" href="https://www.lightstyle.cz/"><img id="navbar_brand_image" src="images/loga/loga-color/Lightstylelogo.svg" /></a>
+             
+              </a></div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item">
+                            <a id="kuchyne_link"class="nav-link" 
+                                >Kuchyně<i class="fas fa-angle-down" id="arrow_kuchyne"></i
+                            ></a>
+                        </li>
+                       <!--  <li class="nav-item">
+                            <a id="skrine_link" class="nav-link"
+                                >Skříně<i class="fas fa-angle-down" id="arrow_skrine"></i
+                            ></a>
+                        </li>-->
+                     
+                      
+                        <li class="nav-item">
+                            <a id="showroomy_link" class="nav-link" 
+                                >Showroomy<i class="fas fa-angle-down" id="arrow_showroomy"></i
+                            ></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="spotrebice_link" class="nav-link" 
+                                >Spotřebiče<i class="fas fa-angle-down" id="arrow_spotrebice"></i
+                            ></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="akce_link" class="nav-link"
+                                >Akce<i class="fas fa-angle-down" id="arrow_akce"></i
+                            ></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="kontakt_link" >Kontakt<i class="fas fa-angle-down" id="arrow_kontakt"></i
+                            ></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="realizace_link"class="nav-link" 
+                                >Realizace<i class="fas fa-angle-down" id="arrow_realizace"></i
+                            ></a>
+                        </li>
+                       
+                    </ul>
+           
+               
+              </div> <div class="social_icons_wrapper text-right"><a class="social_icon_link" href="https://www.facebook.com/lightstylestudio"><i class="fab fa-facebook-f"></i></a><a class="social_icon_link" href="https://www.instagram.com/lightstyle.cz/?hl=en "><i class="fab fa-instagram"></i></a><a class="social_icon_link" href="https://www.linkedin.com/company/lightstyle-kitchen/"><i class="fab fa-linkedin-in"></i></a> </div>
+          
+            </div>
+          </nav>
+          <div class="themodal" id="themodal"></div>
+          <div class="container menu-mobile sidepanel" id="mySidepanel">
+            <a  class="closebtn" >&times;</a>
+
+            <div class="accordion accordion-flush" id="accordionFirstLayer">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Kuchyně
+                            
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFirstLayer">
+                    <div class="accordion-body">
+
+                        <div class="accordion accordion-flush" id="accordion_kuchyne">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne_kuchyne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne_kuchyne" aria-expanded="false" aria-controls="flush-collapseOne_kuchyne">
+                                            Nobilia
+                                        
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne_kuchyne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne_kuchyne" data-bs-parent="#accordion_kuchyne">
+                                <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.nobiliakuchyne.cz/cz/produkt/list/">Všechny kuchyně</a><br>
+                                    <a class="menu_drawer_link" href="https://www.nobiliakuchyne.cz/cz/designove-prvky/">Designové prvky a materiály </a><br>
+                                    <a class="menu_drawer_link" href="https://www.nobiliakuchyne.cz/cz/vnitrni-vybaveni/">Vnitřní vybavení </a><br>
+                                    <a class="menu_drawer_link" href="https://catalogue.nobilia.de/kitchen/page/1">Katalog </a><br></div>
+                              </div>
+                            </div>
+            
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo_kuchyne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo_kuchyne" aria-expanded="false" aria-controls="flush-collapseTwo_kuchyne">
+                                    Schüller
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo_kuchyne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo_kuchyne" data-bs-parent="#accordion_kuchyne">
+                                <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.schueller.de/de/kuechen">Kuchyně Schüller C</a><br>
+                                    <a class="menu_drawer_link" href="https://www.schueller.de/de/kuechen/ergonomie-systeme">Ergonomie a systémy</a><br>
+                                    <a class="menu_drawer_link" href="https://www.schueller.de/de/katalog">Katalog</a></div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree_kuchyne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree_kuchyne" aria-expanded="false" aria-controls="flush-collapseTwo_kuchyne">
+                                      Next125
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseTwo_kuchyne" class="accordion-collapse collapse" aria-labelledby="flush-headingThree_kuchyne" data-bs-parent="#accordion_kuchyne">
+                                  <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne/next125/
+                                    ">Kuchyně Next125</a>
+                                    <a class="menu_drawer_link" href="https://www.next125.com/en/discover/features">Doplňky</a><br>
+                                    <a class="menu_drawer_link" href="https://www.next125.com/en/discover/materials-colours">Materiály</a><br>
+                                    <a class="menu_drawer_link" href="https://schueller.epaper-publishing-one.de/html5/next/next125_katalog_2020_en/">Katalog</a> </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+
+               <!--
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Skříně
+                    </button>
+                  </h2>
+
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFirstLayer">
+                    <div class="accordion-body"><a class="menu_drawer_link" href="https://www.raumplus.com">Inspirace Raumplus</a> </div>
+                  </div>
+                </div>
+-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Showroomy
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFirstLayer">
+                    <div class="accordion-body"> <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-praha-zitenicka-7-showroom/"><b>PRAHA</b> Žitenická 871/7</a><BR>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-praha-zitenicka-1-showroom/"><b>PRAHA</b> Žitenická 871/1</a><BR>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-ceske-budejovice-rudolfovska-showroom/"><b>ČESKÉ BUDĚJOVICE</b> Rudolfovská 1817/2</a><BR>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-ceske-budejovice-premysla-otakara-showroom/"><b>ČESKÉ BUDĚJOVICE</b> Přemysla Otakara II. 87/25</a><BR>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-bratislava-hrachova-showroom/"><b>BRATISLAVA</b> Hrachová 14/C</a></div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Spotřebiče
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFirstLayer">
+                      <div class="accordion-body"><a class="menu_drawer_link" href="https://www.elektrocz.com/aeg-shop/">AEG</a><br>
+                        
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/bosch-shop/">BOSCH</a><br>
+                          <a class="menu_drawer_link" href="https://www.elektrocz.com/electrolux-shop/">ELECTROLUX</a><br>
+                          <a class="menu_drawer_link" href="https://www.elektrocz.com/siemens-shop/">SIEMENS</a><br>
+                          <a class="menu_drawer_link" href="https://www.elektrocz.com/miele-shop/">MIELE</a></div>
+                    </div></div>
+
+                     <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Akce
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFirstLayer">
+                    <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.elektrocz.com/kurz-vareni/">Kurzy vaření</a><br>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="/">Akce -37% na kuchyně</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-outlet/">Výprodej z expozice</a><br>
+                        <a class="menu_drawer_link" style="line-height: 1;padding-top: 0px;" href="https://www.elektrocz.com/c8777-kuchyne-a-kuchynske-sestavy/
+                
+                        ">Skladové kuchyně za super cenu</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/c8777-kuchyne-a-kuchynske-sestavy/
+                
+                        ">Další akce</a> </div>
+                  </div></div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                          Kontakt
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFirstLayer">
+                      <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-reference/">O nás</a><br>
+                        <a class="menu_drawer_link" href="https://www.lightstyle.cz/nabytek-reference/">Tým</a><br>
+                        <a class="menu_drawer_link" href="https://www.lightstyle.cz/kuchyne-cenove-priklady/">Kontakty</a><br>
+                        <a class="menu_drawer_link" href="https://www.lightstyle.cz/kuchyne-cenove-priklady/">6x Showroom</a><br>
+                        <a class="menu_drawer_link" href="https://www.lightstyle.cz/kuchyne-cenove-priklady/">Kariéra</a></div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Realizace
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFirstLayer">
+                          <div class="accordion-body"> <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-reference/">Novodobá klasika</a><br>
+                            <a class="menu_drawer_link" href="https://www.lightstyle.cz/nabytek-reference/">Černá matná jako lesklá bílá</a><br>
+                            <a class="menu_drawer_link" href="https://www.lightstyle.cz/kuchyne-cenove-priklady/">Jemný kontrast hedvábně šedé a grafitu</a></div>
+                        </div>
+                        </div>
+</div>
+        </div>
+
+          </div>
+       </div>
+       </div>
+          
+            <!--<picture>
+              
+<img id="cover_image"   srcset="images/csm_next-sm.jpg 576w, images/csm_next-wide.jpeg 1440w" sizes="(max-width: 2880px) 100vw" src="images/csm_next-wide.jpeg"></picture>
+            -->
+
+<div id="kuchyne_menu_drawer" class="container-fluid menu_drawer_wrapper sticky-top">  <div class="menu_drawer_content_wrapper">
+    <div class="menu_drawer_column_wrapper">
+        <p class="menu_drawer_title" >Nobilia<br>
+        <a class="menu_drawer_link" href="https://demo-nobilia.maxineta.cz/cz/produkt/list/">Všechny kuchyně</a><br>
+        <a class="menu_drawer_link" href="https://demo-nobilia.maxineta.cz/cz/designove-prvky/">Designové prvky a materiály </a><br>
+        <a class="menu_drawer_link" href="https://demo-nobilia.maxineta.cz/cz/vnitrni-vybaveni/">Vnitřní vybavení </a><br>
+        <a class="menu_drawer_link" href="https://catalogue.nobilia.de/kitchen/page/1">Katalog </a><br>
+        </p>
+    
+    </div>
+    <div class="menu_drawer_column_wrapper">
+        <p class="menu_drawer_title" >Schüller<br>
+        <a class="menu_drawer_link" href="https://www.schueller.de/de/kuechen">Kuchyně Schüller C</a><br>
+        <a class="menu_drawer_link" href="https://www.schueller.de/de/kuechen/ergonomie-systeme">Ergonomie a systémy</a><br>
+        <a class="menu_drawer_link" href="https://www.schueller.de/de/katalog">Katalog</a></p>
+        
+        
+    </div>
+    <div class="menu_drawer_column_wrapper">
+        <p class="menu_drawer_title">Next125<br>
+        
+        <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne/next125/
+        ">Kuchyně Next125</a><br>
+        <a class="menu_drawer_link" href="https://www.next125.com/en/discover/features">Doplňky</a><br>
+        <a class="menu_drawer_link" href="https://www.next125.com/en/discover/materials-colours">Materiály</a><br>
+        <a class="menu_drawer_link" href="https://schueller.epaper-publishing-one.de/html5/next/next125_katalog_2020_en/">Katalog</a><br></p>
+        </div>
+        <div class="menu_drawer_threeimages_wrapper">
+        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/menu_kuchyně1.png"> <br><p><b>Nobilia</b></p> </div>
+        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Schüller" src="images/menu_kuchyně3.png"> <br><p><b>Schüller</b></p> </div>
+        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Next125" src="images/menu_kuchyně2.png"> <br><p><b>Next125</b></p> </div></div>
+        
+    </div></div>
+
+    
+    <div id="skrine_menu_drawer" class="container-fluid menu_drawer_wrapper">
+        <div class="menu_drawer_content_wrapper">
+        <div class="menu_drawer_column_wrapper">
+            <p class="menu_drawer_title" >Skříně</p>
+            <a class="menu_drawer_link" href="https://www.raumplus.com">Inspirace Raumplus</a>
+          
+        </div>
+       </div></div>
+       
+            <div id="showroomy_menu_drawer" class="container-fluid menu_drawer_wrapper"><div class="menu_drawer_content_wrapper">
+                <div class="menu_drawer_column_wrapper">
+                    <p class="menu_drawer_title">Showroomy</p>
+                    <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-praha-zitenicka-7-showroom/"><b>PRAHA</b><BR>Žitenická 871/7</a>
+                    <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-praha-zitenicka-1-showroom/"><b>PRAHA</b><BR>Žitenická 871/1</a>
+                    <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-ceske-budejovice-rudolfovska-showroom/"><b>ČESKÉ BUDĚJOVICE</b><BR>Rudolfovská 1817/2</a>
+                    <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-ceske-budejovice-premysla-otakara-showroom/"><b>ČESKÉ BUDĚJOVICE</b><BR>Přemysla Otakara II. 87/25</a>
+                    <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="https://www.elektrocz.com/kuchynske-studio-bratislava-hrachova-showroom/"><b>BRATISLAVA</b><BR>Hrachová 14/C</a>
+                </div>
+                <div class="menu_drawer_threeimages_wrapper">
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image"  alt="Kuchyně Nobilia" src="images/Showroom/Zitenicka7.png"> <br><p style="line-height: 1;"><b>LIGHTSTYLE PRAHA</b><br><small>Žitenická 871/7<br>Praha 9 - Prosek</small></p> </div>
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/Showroom/Zitenicka.png"> <br><p style="line-height: 1;"><b>MIELE CENTER<br>LIGHTSTYLE PRAHA </b><br><small>Žitenická 871/1<br>Praha 9 - Prosek</small></p> </div>
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/Showroom/Miele.png"> <br><p style="line-height: 1;"><b>MIELE CENTER<br>ČESKÉ BUDĚJOVICE</b><br><small> Rudolfovská 1817/2</small></p> </div>
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/Showroom/PremyslaOtakara.png"> <br><p style="line-height: 1;"><b>LIGHTSTYLE<BR>ČESKÉ BUDĚJOVICE</b><br><small>Přemysla Otakara II. 87/25</small></p> </div>
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/Showroom/Bratislava.png"> <br><p style="line-height: 1;"><b>LIGHTSTYLE<BR>BRATISLAVA</b><br><small>Hrachová 14/C</small></p> </div>
+                    <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchyně Nobilia" src="images/Showroom/NovyProjekt.png"> <br><p style="line-height: 1;"><b>NOVÝ PROJEKT</b><br><small>České Budějovice</small></p> </div>
+                   
+                </div>
+            </div>
+                </div>
+                <div id="spotrebice_menu_drawer" class="container-fluid menu_drawer_wrapper"><div class="menu_drawer_content_wrapper">
+                    <div class="menu_drawer_column_wrapper">
+                        <p class="menu_drawer_title">Značky<br>
+                          <a class="menu_drawer_link" href="https://www.elektrocz.com/aeg-shop/">AEG</a><br>
+                        
+                      <a class="menu_drawer_link" href="https://www.elektrocz.com/bosch-shop/">BOSCH</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/electrolux-shop/">ELECTROLUX</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/siemens-shop/">SIEMENS</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/miele-shop/">MIELE</a></p>
+                    </div>
+                   <div class="menu_drawer_threeimages_wrapper">
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" stye="width:300px" alt="Trouby" src="images/Spotrebice/Trouby.png"> <br><p><b>Trouby</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Varná deska" src="images/Spotrebice/Varnedesky.png"> <br><p><b>Varné desky</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Myčka" src="images/Spotrebice/Mycka.png"> <br><p><b>Myčky</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Odsávač" src="images/Spotrebice/Odsavac.png"> <br><p><b>Odsávače par</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Chladnička" src="images/Spotrebice/Chladnicky.png"> <br><p><b>Chladničky</b></p> </div>
+                       
+                    </div>
+
+                    </div>
+                    </div>
+                    <div id="akce_menu_drawer" class="container-fluid menu_drawer_wrapper">
+                        <div class="menu_drawer_content_wrapper">
+                    <div class="menu_drawer_column_wrapper">
+                            <p class="menu_drawer_title" >Akce<br>
+                            <a class="menu_drawer_link" href="https://www.elektrocz.com/kurz-vareni/">Kurzy vaření</a><br>
+                            <a class="menu_drawer_link" style="line-height: 1;padding-top: 13px;" href="/">Akce -37%<br> na kuchyně</a><br>
+                            <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-outlet/">Výprodej z expozice</a><br>
+                            <a class="menu_drawer_link" style="line-height: 1;padding-top: 0px;" href="https://www.elektrocz.com/c8777-kuchyne-a-kuchynske-sestavy/
+                    
+                            ">Skladové kuchyně<br>za super cenu</a><br>
+                            <a class="menu_drawer_link" href="https://www.elektrocz.com/c8777-kuchyne-a-kuchynske-sestavy/
+                    
+                            ">Další akce</a></p>
+                    
+                        
+                        </div>
+                        <div class="menu_drawer_threeimages_wrapper">
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" stye="width:300px" alt="Dáma radující se ze své nové kuchyně" src="images/Akce/Akce.png"> <br><p><b>Kurzy vaření</b></p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Nová bílá kuchyně se sporákem uprostřed" src="images/Akce/Akce_2_kuchyne.png"> <br><p><b>Akce -37% </b><br>na kuchyně</p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Stůl v showroomu, kolem kterého stojí tři osoby" src="images/Akce/Akce_3_dlani_akce.png"> <br><p><b>Výprodej</b></p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Kuchařská show s hořícím hrncem" src="images/Akce/Akce_4_kurz.png"> <br><p><b>Skladové kuchyně</b><br>za super cenu</p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" alt="Dvě moderní kuchyně v dřevěném a šedém vzhledu" src="images/Akce/Akce_5_outlet.png"> <br><p><b>Další akce</b></p> </div>
+                           
+                        </div>
+                    
+                        </div>
+                        </div>
+                 
+                      
+                       
+                        <div id="kontakt_menu_drawer" class="container-fluid menu_drawer_wrapper"><div class="menu_drawer_content_wrapper">
+                            <div class="menu_drawer_column_wrapper">
+                               <p>
+                                <a class="menu_drawer_link" href="https://www.elektrocz.com/o-nas/">O nás</a><br>
+                                <a class="menu_drawer_link" href="https://www.live.elektrocz.com/team/">Tým</a><br>
+                                <a class="menu_drawer_link" href="https://www.lightstyle.cz/kontakt/">Kontakty</a><br>
+                                <a class="menu_drawer_link" href="https://www.lightstyle.cz/kuchynska-studia/">6x Showroom</a><br>
+                                <a class="menu_drawer_link" href="https://www.elektrocz.com/volna-mista/">Kariéra</a><br>
+                               </p>
+                      </div>
+                      <div class="menu_drawer_threeimages_wrapper">
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Členové týmu při práci" src="images/Kontakt/Kontakt_1_kariera.png"> <br><p><b>Tým</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Moderní elegantní kuchyně vystavené v showroomu" src="images/Kontakt/Kontakt_2_showroom.png"> <br><p><b>Showroom</b></p> </div>
+                        <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Členové týmu při práci a Macbookem" src="images/Kontakt/Kontakt_3.png"> <br><p><b>Kariéra</b></p> </div>
+                    </div>
+</div>
+
+                        </div>
+                    
+
+                <div id="realizace_menu_drawer" class="container-fluid menu_drawer_wrapper">
+                    <div class="menu_drawer_content_wrapper">
+                    <div class="menu_drawer_column_wrapper">
+                        <p class="menu_drawer_title">Realizace<br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-reference/detail/31/novodoba-klasika/">Novodobá klasika</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-reference/detail/30/cerna-matna-jako-nova-leskla-bila/">Černá matná jako lesklá bílá</a><br>
+                        <a class="menu_drawer_link" href="https://www.elektrocz.com/kuchyne-reference/detail/29/jemny-kontrast-hedvabne-sede-a-grafitu/">Jemný kontrast hedvábně šedé a grafitu</a></p>    </div>
+
+                        <div class="menu_drawer_threeimages_wrapper">
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Novodobá klasika" src="images/Realizace/Realizace_1_cerna.png"> <br><p><b>Novodobá klasika</b></p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Černá matná jako lesklá bílá" src="images/Realizace/Realizace_2_bezová.png"> <br><p><b>Černá matná <br>jako lesklá <br>bílá</b></p> </div>
+                            <div class="menu_drawer_image_wrapper"><img class="menu_drawer_image" style="width:200px" alt="Členové týmu při práci a Macbookem" src="images/Realizace/Realizace_3_bila.png"> <br><p><b>Jemný kontrast <br>hedvábně šedé <br>a grafitu</b></p> </div>
+                        </div>
+    
+    
+              </div></div>
+
+
+
+
+              <div class="container-fluid text-center ergonomie_header_image_wrapper">
+                <picture>  <img alt="Chlapec, který se drží pultu v kuchyni" class="ergonomie_header_image" srcset="images/Ergonomie/csm_Individuelle_Kuechen_3_b9952de4fd_phone.jpeg 576w, images/Ergonomie/csm_Individuelle_Kuechen_3_b9952de4fd_768.jpeg 768w,
+                  images/Ergonomie/csm_Individuelle_Kuechen_3_b9952de4fd_768.jpeg 998w, images/Ergonomie/csm_Individuelle_Kuechen_3_b9952de4fd.jpeg 1200w" sizes="(max-width: 2880px) 100vw" src="images/Ergonomie/csm_Individuelle_Kuechen_3_b9952de4fd.jpeg"> </picture> 
+                  <div class="ergonomie_card">
+                      <h1 class="ergonomie_main_header">Ergonomie a systémy</h1> <div class="red_spot"></div>
+                  </div>
+              </div>
+
+              <div class="container first_text">
+              <h2 class="ergonomie_title">Design a technologie</h2>
+<p class="left_justified_text" style="text-align: left;  padding-bottom: 3rem;">
+              Pro design našich kuchyní je charakteristická individualita. Nejedná se pouze o vizuální zajímavosti, jako jsou čelní plochy a barvy, ale také o funkční aspekty, jako je ergonomie, vybavení a kvalitativní požadavky na kuchyň.</p>
+
+</div>
+<div class="container text-center" style="width: 70vw;">
+              <h2 class="ergonomie_title" style="text-align: center;">Ergonomie</h2>
+              <p class="centered_paragraph">
+Práce v kuchyni je opravdu zábavná jen tehdy, když jsou skříňky ve správné výšce, vzdálenosti a pracovní cesty jsou vhodné a všechny důležité pomůcky jsou rychle a snadno po ruce. Stručně řečeno: když je kuchyně naplánována tak, aby práce byla příjemná a šetrná k tělu.</p>
+</div>
+<div class="container-fluid centered_wrapper text-center">
+<img alt="" class="large_image" src="images/Ergonomie/csm_Schueller_Arbeitshoehe_ff11f997d1.jpeg" >
+</div><div class="container text-center" style="width: 70vw;">
+<p class="centered_paragraph" style="padding-top: 2rem;">
+Pracovní výška - ideální rozměr závisí na vaší tělesné výšce a určuje se podle výšky loktů. Díky třem různým výškám korpusu (informace o výškách korpusů) v kombinaci se dvěma tloušťkami pracovní desky a sedmi výškami soklu je lze individuálně naplánovat.</p>
+</div>
+<div class="container-fluid centered_wrapper text-center">
+<img alt=""  class="large_image" src="images/Ergonomie/csm_Schueller_Kuechenaufnahme_Arbeitshoehe_4783365b63.jpeg" >
+
+<h2 class="ergonomie_title">TLOUŠŤKA PRACOVNÍ DESKY + VÝŠKA KORPUSU + VÝŠKA SOKLU = PRACOVNÍ VÝŠKA</h2>
+
+<video class="kitchen_video" controls loop="" playsinline="" autoplay="" muted="" preload="auto">
+        
+  <source type="video/mp4" src="images/schüller_C_High_built-in_dishwasher.mp4">
+</video>
+</div>
+<div class="container text-center" style="width: 70vw;">
+
+<p class="centered_paragraph"  style="padding-top: 2rem;">
+Z ergonomického hlediska není důležitá pouze pracovní výška: Vysoce integrované elektrické spotřebiče, výsuvné vnitřní zásuvky a výsuvy nebo nástěnné skříňky s křídlovými dvířky, které lze elektricky zavřít, výrazně usnadňují každodenní práci v kuchyni.</p>
+</p>
+</div>
+
+<div class="container text-center four_images_wrapper">
+<div class="row justify-content-center mx-auto ">
+    <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Auszuege_145e85c723.jpeg" ></div>  <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Backofen_54792ea0a6.jpeg" ></div>
+    </div>
+    <div class="row justify-content-center mx-auto">
+      <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Geschirrspueler_e62a5b484a.jpeg" ></div><div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Getraenkekisten_dbb22350d9.jpeg" ></div>
+    </div>
+
+<div class="row justify-content-center mx-auto">
+  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_LE_MANS_bb5245fc09.jpeg" ></div><div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+        <img alt="" class="small_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Oberschrank_50949501aa.jpeg" ></div>
+    </div>
+</div>
+    <div class="container justify-content-center mx-auto text-center">
+      <img alt="" class="large_image" src="images/Ergonomie/csm_Schueller_Ergonomie_Waschen_c257090e22.jpeg" ></div>
+    
+
+
+<div class="container text-center" >
+<h2 class="ergonomie_title">Výška korpusu</h2>
+<div class="container text-left" style="width: 70vw;">
+<p class="left_justified_text" style="padding-bottom: 2rem;"> Základem individuálního plánování kuchyně je výška korpusu. Nabízíme vám výběr ze tří různých výšek.
+ Pokud zkombinujete různé výšky soklu a tloušťky pracovní desky, můžete najít optimální řešení 
+ pro každý stavební stav nebo situaci v místnosti. Kuchyňskou linku lze samozřejmě individuálně přizpůsobit výšce uživatele.</p>
+ </div>
+ <div class="container mx-auto text-center"><img alt="" class="large_image" src="images/Ergonomie/csm_Schueller_Korpushoehen_80bf141a83.jpeg" ></div>
+ <div class="container" >
+<p class="left_justified_text"  style="padding-top: 2rem;padding-bottom: 2rem">13 cm mřížka (=výška zásuvky) zajišťuje čistý a rovnoměrný vzor spár. Vynásobením 5,5 x 13 cm, 6 x 13 cm a 6,5 x 13 cm 
+  získáme výšky 71,5 cm, 78 cm a 84,5 cm.</p>
+  </div>
+  <div class="container blocktext_and_image">
+    <div class="row block_rev" style="padding-bottom: 2rem;">  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<p class="block_text">
+Výška korpusu 71,5 cm je klasická standardní výška a navíc má tu výhodu, že ji lze instalovat téměř kamkoli. 
+Tato výška je ideální pro staré budovy s výškou prahu 86 cm. 
+Ergonomické hledisko zde spočívá v tom, že je dosaženo optimální pracovní výšky pro osoby, které jsou o něco nižší.
+</p></div>  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<img alt="" class="halfscreen_image" src="images/Ergonomie/csm_Schueller_Korpushoehe_71_5_ca7eadf77a.jpeg" >
+</div></div>   <div class="row block_two">  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<img alt="" class="halfscreen_image" src="images/Ergonomie/csm_Schueller_Korpushoehe_78_d8f933940a.jpeg" ></div>
+<div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<p class="block_text">
+Výška korpusu 78 cm poskytuje flexibilní výškový rastr pro různé způsoby použití v kuchyni. 
+Kombinuje praktičnost s ergonomií pro téměř jakékoli použití. 
+Tato výška je navíc ideální pro moderní stavby s vyšší výškou parapetu cca 100 cm.</p>
+</div></div>
+
+<div class="row block_rev">  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<p class="block_text">
+Pokud toužíte po exkluzivitě, inovativních řešeních a zvláštním pocitu domova, je naše extra vysoká korpusová skříň o výšce 84,5 cm 
+díky svému kubickému vzhledu ideální pro otevřené prostory a plynulé přechody mezi kuchyní a obývacím prostorem. 
+V kombinaci s nízkou výškou soklu ji lze dále přizpůsobit. Skvělý bonus: více úložného prostoru. 
+Vyšší pracovní výška je navíc skvělá pro vyšší osoby.
+</p></div>  <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<img alt="" class="halfscreen_image" src="images/Ergonomie/csm_Schueller_Korpushoehe_84_5_e79e357f1e.jpeg" >
+</div></div>
+
+<div style="margin: 3rem auto;">
+<video class="kitchen_video" controls loop="" playsinline="" autoplay="" muted="" preload="auto">
+        
+  <source type="video/mp4" src="images/schüller_C_Carcase_height_X5.mp4">
+</video>
+</div>
+<h2 class="ergonomie_title">
+Hloubka korpusu</h2>
+<p sclass="left_justified_text" style="padding-bottom: 20px;">
+Více úložného prostoru díky různým hloubkám skříněk - maximální flexibilita i pro větší talíře nebo objemné kuchyňské náčiní, 
+které lze snadno uklidit.
+</p>
+
+<div class="container">
+  <div class="row block_rev justify-content-center mx-auto ">
+    <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<h2 class="ergonomie_title">
+Nástěnné skříně</h2>
+
+<p class="block_text">
+U nástěnných skříněk je standardní hloubka 35 cm. U vybraných výšek a šířek nástěnných skříní nabízíme volitelně hloubku 56 cm 
+pro další úložný prostor.
+<h2 class="ergonomie_title">
+Spodní skříně</h2>
+
+<p class="block_text">
+K dispozici jsou tři hloubky korpusu v rozmezí 35 až 56 cm. U výšky korpusu 78 cm máte navíc možnost volby hloubky 66 cm.
+</p>
+</div>
+<div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<img alt="" class="halfscreen_image" src="images/Ergonomie/csm_Schueller_Korpustiefen_Unterschrank_Oberschrank_cba9fd42fb.jpeg" >
+</div>
+  </div>
+  <div class="row justify-content-center mx-auto ">
+    <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<img alt="" class="halfscreen_image" src="images/Ergonomie/csm_Schueller_Korpustiefen_Hochschrank_4e750b15ac.jpeg" >
+</div>
+<div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+<h2 class="ergonomie_title">
+Vysoké skříně</h2>
+<p class="block_text">
+V celé řadě vysokých skříněk máte možnost volby hloubky skříněk od 35 do 56 cm. Upozornění: hloubka 66 cm není možná u modelů bez úchytek.
+</p></div>
+  </div></div></div>
+</div></div>
+<div class="container  text-center bottom_box_wrapper mx-auto ">
+  <div class="row justify-content-center mx auto the_row">
+    <div class="col-xs-6 col-sm-6 col-5 bottom_box">
+      <img alt="" class="mini_image" src="images/Ergonomie/csm_footer_haendler_9ef725937b.jpeg" >
+      <div class="bottom_box_text">
+          <h3 class="small_title">Moje kuchyně</h3>
+          <p>Objevte kuchyňské systémy přizpůsobené vašemu individuálnímu vkusu.</p>
+          </div><div>
+       <a href="https://www.schueller.de/de/kuechen"><button class="red_button" style="width:13vw" type="button">Objevte kuchyně</button></a> 
+      </div></div>
+ 
+    <div class="col-xs-6 col-sm-6 col-5 bottom_box">
+      <img alt="" class="mini_image" src="images/Ergonomie/csm_Schueller_Katalog_2022_Bestellen_6fe6947b6b.jpeg" >
+      <div class="bottom_box_text">
+          <h3 class="small_title">Katalog</h3>
+          <p>Na více než 200 stranách vám představí celý svět kuchyní Schüller.</p>
+           </div> <div>
+            <a href="https://schueller.epaper-publishing-one.de/html5/schueller/schueller_katalog_2022_de_en_es/"><button class="red_button" style="width:8vw" type="button">Katalog</button></a></div>
+</div></div></div>
+</div>
+
+
+
+
+
+
+  
+        <!---------------- Úzká lišta s logy firem na PC ----------------->
+        <div class="container-fluid logoes_banner">
+          <a class="company_logo" style="width: 5%;height: auto;padding-right: 5px" href="https://www.aeg.cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/aeg.svg"><img class="company_logo_image" alt="Logo AEG" src="images/loga/logo AEG.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.next125.com/en/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/next125.svg"><img class="company_logo_image" alt="Logo Next 125" src="images/loga/logo next125.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.schueller.de/en">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/schuller.svg"><img class="company_logo_image" alt="Logo Schüller" src="images/loga/logo schüller.jpg"></a>
+          <a class="company_logo" style="width: 10%;height: auto;padding-right: 5px" href="https://www.electrolux.cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/electrolux.svg"><img class="company_logo_image" alt="Logo Electrolux" src="images/loga/logo elektrolux.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.nobiliakuchyne.cz/cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/nobilia.svg"><img class="company_logo_image" alt="Logo Nobilia" src="images/loga/logo nobilia.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.siemens-home.bsh-group.com/cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/siemens.svg"><img class="company_logo_image" alt="Logo Siemens" src="images/loga/logo siemens.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.miele.cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/miele.svg"><img class="company_logo_image" alt="Logo Miele" src="images/loga/logo miele.jpg"></a>
+          <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.bosch.cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/bosch.svg"><img class="company_logo_image" alt="Logo Bosch" src="images/loga/logo bosch.jpg"></a>
+          <!---------------- Ikonky sociálních sítí na PC----------------->
+                <div class="social_icon_lower_wrapper"> <a class="social_icon_lower_link" href="https://www.facebook.com/lightstylestudio"><i class="fab fa-facebook-f"></i></a><a class="social_icon_lower_link" href="https://www.instagram.com/lightstyle.cz/?hl=en"><i class="fab fa-instagram"></i></a><a class="social_icon_lower_link" href="https://www.linkedin.com/company/lightstyle-kitchen/"><i class="fab fa-linkedin-in"></i></a> </div>
+        </div>
+        </div>
+            <!---------------- Úzká lišta s logy firem na mobil ----------------->
+        <div class="container-fluid logoes_banner_phone">
+          <div class="row text-center">
+            <div class="col">
+              <a class="company_logo" style="width: 3%;height: auto;padding-right: 5px" href="https://www.aeg.cz/">
+                <picture>
+                  <source type="image/svg+xml" srcset="images/loga/loga-white/aeg.svg"><img class="company_logo_image" alt="Logo AEG" src="images/loga/logo AEG.jpg"></a>
+            </div>
+            <div class="col">
+              <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.next125.com/en/">
+                <picture>
+                  <source type="image/svg+xml" srcset="images/loga/loga-white/next125.svg"><img class="company_logo_image" alt="Logo Next 125" src="images/loga/logo next125.jpg"></a>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <div class="row ">
+                <div class="col">
+                  <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.schueller.de/en">
+                    <picture>
+                      <source type="image/svg+xml" srcset="images/loga/loga-white/schuller.svg"><img class="company_logo_image" alt="Logo Schüller" src="images/loga/logo schüller.jpg"></a>
+                </div>
+                <div class="col">
+                  <a class="company_logo" style="width: 10%;height: auto;padding-right: 5px" href="https://www.electrolux.cz/">
+                    <picture>
+                      <source type="image/svg+xml" srcset="images/loga/loga-white/electrolux.svg"><img class="company_logo_image" alt="Logo Electrolux" src="images/loga/logo elektrolux.jpg"></a>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col">
+                  <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.nobiliakuchyne.cz/cz/">
+                    <picture>
+                      <source type="image/svg+xml" srcset="images/loga/loga-white/nobilia.svg"><img class="company_logo_image" alt="Logo Nobilia" src="images/loga/logo nobilia.jpg"></a>
+                </div>
+                <div class="col">
+                  <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.siemens-home.bsh-group.com/cz/">
+                    <picture>
+                      <source type="image/svg+xml" srcset="images/loga/loga-white/siemens.svg"><img class="company_logo_image" alt="Logo Siemens" src="images/loga/logo siemens.jpg"></a>
+                </div>
+                <div class="row text-center">
+                  <div class="col">
+                    <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.miele.cz/">
+                      <picture>
+                        <source type="image/svg+xml" srcset="images/loga/loga-white/miele.svg"><img class="company_logo_image" alt="Logo Miele" src="images/loga/logo miele.jpg"></a>
+                  </div>
+                  <div class="col">
+                    <a class="company_logo" style="width: 7%;height: auto;padding-right: 5px" href="https://www.bosch.cz/">
+                      <picture>
+                        <source type="image/svg+xml" srcset="images/loga/loga-white/bosch.svg"><img class="company_logo_image" alt="Logo Bosch" src="images/loga/logo bosch.jpg"></a>
+                  </div>
+                </div>
+                            <!---------------- Ikonky sociálních sítí na mobil a tablet ----------------->
+                <div class="social_icon_lower_wrapper"> <a class="social_icon_lower_link" href="https://www.facebook.com/lightstylestudio"><i class="fab fa-facebook-f"></i></a><a class="social_icon_lower_link" href="https://www.instagram.com/lightstyle.cz/?hl=en"><i class="fab fa-instagram"></i></a><a class="social_icon_lower_link" href="https://www.linkedin.com/company/lightstyle-kitchen/"><i class="fab fa-linkedin-in"></i></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!---------------- FOOTER pro PC začátek ----------------->
+        <footer>
+          <div class="container-fluid footer">
+            <div class="footer_column_wrapper">
+              <p class="footer_title"><b>
+                    Pro zákazníky:</b> </p> <a class="footer_link" href="">FAQs</a> <a class="footer_link" href="">Showroomy</a> <a class="footer_link" href="">Akční kuchyně</a> <a class="footer_link" href="">Reference</a> <a class="footer_link" href="">Aktuality</a> </div>
+            <div class="footer_column_wrapper">
+              <p class="footer_title"><b>
+                    O společnosti:</b> </p> <a class="footer_link" href="">O nás</a> <a class="footer_link" href="">Kontakt</a> <a class="footer_link" href="">Obchodní podmínky</a> </div>
+            <div class="footer_column_wrapper">
+              <p class="footer_title"><b>
+                    Zákaznická linka:</b> </p> <a class="footer_link" href="mailto:info@lightstyle.cz">info@lightstyle.cz</a> <a class="footer_link" href="">Jsme online 7 dní v týdnu až do 23°° hodin</a> </div>
+          </div>
+        </footer>
+            <!---------------- FOOTER pro mobil začátek ----------------->
+        <div class="footer_phone" id="accordionFooter">
+          <div class="footer_accordion_item">
+            <h2 class="footer_accordion_header">
+            <button class="footer_button" type="button" id="footer_button_one">
+                Pro zákazníky: <i class="fa-solid fa-plus"></i>
+                    
+            </button>
+          </h2>
+            <div class="footer_content" id="footer_content_one"> <a class="footer_accordion_link" href="">FAQs</a> <a class="footer_accordion_link" href="">Showroomy</a> <a class="footer_accordion_link" href="">Akční kuchyně</a> <a class="footer_accordion_link" href="">Reference</a> <a class="footer_accordion_link" href="">Aktuality</a> </div>
+          </div>
+          <div class="footer_accordion_item">
+            <h2 class="footer_accordion_header">
+              <button class="footer_button" type="button" id="footer_button_two">O společnosti:  <i class="fa-solid fa-plus"></i>
+            </button>
+          </h2>
+            <div class="footer_content" id="footer_content_two"> <a class="footer_accordion_link" href="">O nás</a> <a class="footer_accordion_link" href="">Kontakt</a> <a class="footer_accordion_link" href="">Obchodní podmínky</a> </div>
+          </div>
+          <div class="footer_accordion_item">
+            <h2 class="footer_accordion_header">
+              <button class="footer_button" type="button" id="footer_button_three">Zákaznická linka: <i class="fa-solid fa-plus"></i>
+            </button>
+          </h2>
+            <div class="footer_content" id="footer_content_three"> <a class="footer_accordion_link" href="mailto:info@lightstyle.cz">info@lightstyle.cz</a> <a class="footer_accordion_link" href="">Jsme online 7 dní v týdnu až do 23°° hodin</a> </div>
+          </div>
+        </div>
+             <!----------------- COPYRIGHT ----------------->
+        <div class="container-fluid copyright">
+          <p><small>&copy 2022</small></p>
+          <a class="copyright_lightstyle" href="https://www.lightstyle.cz/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/lightstyle.svg"><img style="width:100%" alt="Logo Lightstyle" src="images/loga/logo lightstyle.JPG"></picture>
+          </a>
+          <a class="copyright_elektro" href="https://www.elektrocz.com/">
+            <picture>
+              <source type="image/svg+xml" srcset="images/loga/loga-white/elektroczcom.svg"><img style="width:100%" alt="Logo Elektrocz" src="images/loga/logo elektrocz.jpg"></picture>
+          </a>
+        </div>
+        </div>
+    
+    </main>
+    <script src="ergonomie.js" type="text/javascript"></script>
+    
+    <script
+                  src="https://code.jquery.com/jquery-3.6.0.min.js"
+                  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                  crossorigin="anonymous"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+    ></script>
+            <script
+                src="https://kit.fontawesome.com/9b30ecfa79.js"
+                crossorigin="anonymous"
+            ></script>
+            <script src="index.js"></script>
+        </body>
+    </html>
+    
+

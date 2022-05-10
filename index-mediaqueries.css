@@ -1,0 +1,362 @@
+@media (max-width: 576px) {
+  #navbarSupportedContent {
+    display: none;
+  }
+  .social_icons_wrapper {
+    display: none;
+  }
+  .cover_card,
+  .header_card {
+    font-size: 13px;
+    margin-top: 20%;
+  }
+  .header_button {
+    font-size: 13px;
+
+    margin: 50px 20px;
+    padding: 7px 15px;
+  }
+  .menu_icon {
+    display: inline-flex;
+    justify-content: space-between !important;
+  }
+  .navbar {
+    display: inline-flex;
+    justify-content: space-between !important;
+  }
+  .navbar-brand {
+    align-self: center;
+  }
+  .navbar-button {
+    font-size: 50px;
+    display: inline-flex;
+    align-self: left;
+    margin: 10px 20px;
+    cursor: pointer;
+  }
+  .navbar-button:hover {
+    color: #000;
+  }
+  .section_title {
+    font-size: 20px;
+  }
+  .gallery_six_image {
+    width: 80vw;
+    height: auto;
+    padding: 10px 5px;
+  }
+  .kitchen_video {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100vw !important;
+  }
+  .onethird_image,
+  .onethird_image_wrapper {
+    height: auto;
+    width: 80vw;
+    height: auto;
+  }
+  .cover_image_wrapper {
+    background-image: url("images/Module-Video-Our-Approach@2x.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header_title {
+    font-size: 20px;
+  }
+
+  .white_button {
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+  }
+  .logoes_banner {
+    display: none;
+  }
+  .logoes_banner_phone {
+    background-color: var(--dark1);
+    color: #fff;
+
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .company_logo_image {
+    padding: 10px 10px;
+    width: 50%;
+  }
+  .social_icon_lower_wrapper {
+    padding: 20px 20px;
+  }
+  .social_icon_lower_link {
+    font-size: 22px;
+    padding: 20px 20px;
+    color: #fff;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+  .copyright_lightstyle {
+    width: 120px;
+  }
+  .copyright_elektro {
+    width: 100px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer_phone {
+    display: flex;
+  }
+}
+@media (min-width: 576px) {
+  .gallery_six_image {
+    width: 60vw;
+  }
+  .navbar-button {
+    font-size: 50px;
+    display: inline-flex;
+    align-self: left;
+    margin: 10px 20px;
+    cursor: pointer;
+  }
+  .navbar-button:hover {
+    color: #000;
+  }
+  .menu_icon {
+    display: inline-flex;
+    justify-content: space-around !important;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+
+  #navbarSupportedContent {
+    display: none;
+  }
+  .social_icons_wrapper {
+    display: none;
+  }
+  .navbar-brand {
+    position: relative;
+    left: 23%;
+    text-align: center;
+  }
+  .kitchen_video {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100vw !important;
+  }
+  .onethird_image,
+  .onethird_image_wrapper {
+    height: auto;
+    width: 70vw;
+    height: auto;
+  }
+  .logoes_banner {
+    display: none;
+  }
+  .logoes_banner_phone {
+    background-color: var(--dark1);
+    color: #fff;
+
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .company_logo_image {
+    padding: 10px 10px;
+    width: 50%;
+  }
+  .social_icon_lower_wrapper {
+    padding: 20px 20px;
+  }
+  .social_icon_lower_link {
+    font-size: 22px;
+    padding: 20px 20px;
+    color: #fff;
+  }
+  .footer {
+    display: none;
+  }
+  .footer_phone {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .gallery_six_image {
+    width: 40vw;
+    height: auto;
+    margin: 20px 10px;
+  }
+  .gallery_six_image_wrapper {
+    margin: 20px 10px;
+  }
+  #navbarSupportedContent {
+    display: none;
+  }
+  .social_icons_wrapper {
+    display: none;
+  }
+  .navbar-brand {
+    position: relative;
+    left: 23%;
+    text-align: center;
+  }
+  .kitchen_video {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100vw !important;
+  }
+
+  .onethird_image,
+  .onethird_image_wrapper {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .logoes_banner {
+    display: none;
+  }
+  .logoes_banner_phone {
+    background-color: var(--dark1);
+    color: #fff;
+
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .company_logo_image {
+    padding: 10px 10px;
+    width: 50%;
+  }
+  .social_icon_lower_wrapper {
+    padding: 20px 20px;
+  }
+  .social_icon_lower_link {
+    font-size: 22px;
+    padding: 20px 20px;
+    color: #fff;
+  }
+  .footer {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .gallery_six_image {
+    width: 25vw;
+    height: auto;
+    margin: 20px 10px;
+  }
+  .gallery_six_image_wrapper {
+    margin: 20px 10px;
+  }
+
+  .navbar-button {
+    display: none;
+  }
+  .navbar-brand {
+    position: static;
+    text-align: center;
+  }
+
+  .onethird_image,
+  .onethird_image_wrapper {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  #navbarSupportedContent {
+    display: none;
+  }
+  .social_icons_wrapper {
+    display: flex;
+  }
+  .kitchen_video {
+    width: 80vw !important;
+  }
+  .value_col {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+
+    padding: 20px 20px;
+  }
+  .value_paragraph {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 230px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .value_icon {
+    width: 70px;
+    height: auto;
+    align-self: center;
+    padding-top: 20px;
+  }
+  .logoes_banner {
+    display: flex;
+  }
+  .logoes_banner_phone {
+    display: none;
+  }
+  .company_logo_image {
+    padding: 10px 10px;
+    width: 100%;
+  }
+  .footer_phone {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .gallery_six_image {
+    width: 25vw;
+    height: auto;
+  }
+  .gallery_six_images_wrapper {
+    max-width: 70vw;
+  }
+
+  #navbarSupportedContent {
+    display: none;
+  }
+  .onethird_image,
+  .onethird_image_wrapper {
+    width: 20vw;
+    height: auto;
+  }
+  .kitchen_video {
+    width: 60vw !important;
+  }
+}
+@media (min-width: 1400px) {
+  .gallery_six_image {
+    width: 20vw;
+    height: auto;
+    padding: 10px 5px;
+    margin: 0px 0px;
+  }
+  .gallery_six_images_wrapper {
+    max-width: 70vw;
+  }
+
+  .col-xl-4 {
+    width: max-content;
+    margin: 0px 0px;
+  }
+}
