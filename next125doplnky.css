@@ -1,0 +1,135 @@
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  color: black;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.doplnky_header_image_wrapper {
+  justify-content: center;
+  position: relative;
+}
+.doplnky_header_image_wrapper {
+  width: 90vw;
+  height: auto;
+  position: relative;
+}
+
+.doplnky_header_image {
+  width: 90vw;
+  height: auto;
+}
+
+.doplnky_main_header {
+  font-size: calc(2.34375vw + 66.25px);
+  padding-bottom: 3rem;
+  font-weight: 700;
+  font-family: "Meta Pro", sans-serif;
+}
+.doplnky_main_subheader {
+  text-align: left;
+  font-weight: 700;
+  font-family: "Meta Pro", sans-serif;
+}
+.doplnky_card {
+  background-color: #fff;
+
+  position: absolute;
+  z-index: 2;
+  bottom: -50px;
+  left: 5vw;
+  padding: 20px 90px;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: left;
+}
+.first_text {
+  width: 900px;
+  padding-left: 30px;
+  padding-bottom: 5rem;
+}
+.doplnky_title {
+  font-family: "Meta Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 100px;
+  padding-bottom: 3rem;
+}
+.doplnky_subtitle {
+  padding-bottom: 5rem;
+}
+.doplnky_topic_title {
+  font-weight: 900;
+  font-size: 30px;
+  padding-top: 2rem;
+}
+.doplnky_left_aligned_paragraph {
+  text-align: left;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 70vw;
+}
+.black_button {
+  background-color: black;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  font-weight: 800;
+}
+.doplnky_halfscreen_image_wrapper {
+  width: 40vw;
+}
+.doplnky_halfscreen_image {
+  width: 40vw;
+  height: auto;
+}
+.centered_paragraph {
+  text-align: center;
+  padding-bottom: 3rem;
+  max-width: 70vw;
+}
+
+.checklist_container {
+  background-color: #a6a6a6;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.checklist_text {
+  color: #575757;
+  padding-bottom: 3rem;
+  width: 60vw;
+}
+.doplnky_bottom_box_wrapper {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.doplnky_bottom_box {
+  background-color: #a6a6a6;
+  height: 200px;
+  padding: 40px 20px;
+}
+.doplnky_bottom_title {
+  color: #fff;
+}
+.doplnky_bottom_text {
+  color: black;
+}
